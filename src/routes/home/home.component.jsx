@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
@@ -33,7 +34,12 @@ const Home = () => {
         'https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/274987452_317165230444678_8246997711663751173_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=xF9c7zHaxTEAX9VNPES&_nc_ht=scontent-lga3-1.xx&oh=00_AT8VigJcN5_Aner17dMLAWXz_XrUiG5pyeKnqrp-eBtl9w&oe=623AA720',
     },
   ];
-  return <Directory categories={categories} />;
+  return (
+    <>
+      <Outlet />
+      <Directory categories={categories} />
+    </>
+  );
 };
 
 export default Home;

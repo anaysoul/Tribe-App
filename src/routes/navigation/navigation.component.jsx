@@ -1,12 +1,15 @@
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
+import { ReactComponent as TribeLogo } from '../../assets/tribe-logo-cropped.svg';
+import './navigation.styles.scss';
+
 const Navigation = () => {
   return (
     <Fragment>
       <div className="navigation">
         <Link className="logo-container" to="/">
-          <div>Logo</div>
+          <TribeLogo className="logo" />
         </Link>
         <div className="nav-links-container">
           <Link className="nav-link" to="/shop">

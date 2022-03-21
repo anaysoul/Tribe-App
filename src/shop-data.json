@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "GreenLatifah",
+    "imageUrl": "src/assets/IMG_0668.JPG",
+    "description": "Spinach, Celery, Ginger, Lemon, Green Apple",
+    "price": 8
+  },
+  {
+    "id": 2,
+    "name": "Kale Mary",
+    "imageUrl": "src/assets/IMG_0669.JPG",
+    "description": "Kale, Pineapple, Lemon, Green Apple, Cucumber",
+    "price": 8
+  },
+  {
+    "id": 3,
+    "name": "Jungle Fever",
+    "imageUrl": "src/assets/IMG_0667.JPG",
+    "description": "Carrot, Pineapple, Red Apple, Pear",
+    "price": 8
+  },
+  {
+    "id": 4,
+    "name": "Get In the Water (Seasonal)",
+    "imageUrl": "src/assets/IMG_0671.JPG",
+    "description": "Watermelon",
+    "price": 8
+  },
+  {
+    "id": 5,
+    "name": "Customized Cold Press Juice",
+    "imageUrl": "src/assets/IMG_0670.JPG",
+    "price": 10
+  }
+]

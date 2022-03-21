@@ -1,7 +1,8 @@
 import { Fragment } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 
-import { ReactComponent as TribeLogo } from '../../assets/tribe-logo-cropped.svg';
+import { ReactComponent as TribeLogo } from '../../assets/tribe-logo-removebg-preview.svg';
+
 import './navigation.styles.scss';
 
 const Navigation = () => {

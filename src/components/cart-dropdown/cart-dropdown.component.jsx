@@ -16,9 +16,11 @@ import {
 const CartDropdown = () => {
   const { cartItems } = useContext(CartContext);
   const navigate = useNavigate();
+  const { isCartOpen, setIsCartOpen } = useContext(CartContext);
 
   const goToCheckoutHandler = () => {
     navigate('/checkout');
+    setIsCartOpen(!isCartOpen);
   };
 
   return (
